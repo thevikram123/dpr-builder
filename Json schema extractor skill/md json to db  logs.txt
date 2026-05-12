@@ -1,0 +1,224 @@
+Select your .md extraction files
+Hold Ctrl (Windows/Linux) or Cmd (Mac) to select multiple files
+────────────────────────────────────────────────────────────
+2 files
+component md file .md.txt(text/plain) - 52525 bytes, last modified: 5/12/2026 - 100% done
+initial md file.md.txt(text/plain) - 4557 bytes, last modified: 5/12/2026 - 100% done
+Saving component md file .md.txt to component md file .md (1).txt
+Saving initial md file.md.txt to initial md file.md (1).txt
+  Uploaded: component md file .md (1).txt  (52,525 bytes)
+  Uploaded: initial md file.md (1).txt  (4,557 bytes)
+
+Files to process: 2
+  component md file .md (1).txt
+  initial md file.md (1).txt
+
+============================================================
+Processing: component md file .md (1).txt
+============================================================
+  JSON blocks found: 6
+  Manifest: ✓
+  Extraction blocks: 5
+  File type: component  [Component 4: City Communication and Network Infrastructure]
+  ✓ Table ready: component4_8port_industrial_switch_spec
+  ✓ Table ready: component4_spine_switch_spec
+  ✓ Table ready: component4_tor_leaf_switch_spec
+  ✓ Table ready: component4_core_switch_spec
+  ✓ Table ready: component4_dc_lan_switch_spec
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_8port_industrial_switch_spec: UNIQUE constraint failed: component4_8port_industrial_switch_spec.sr_no — skipping row
+  ✓ Inserted    0 rows → component4_8port_industrial_switch_spec
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_spine_switch_spec: UNIQUE constraint failed: component4_spine_switch_spec.sr_no — skipping row
+  ✓ Inserted    0 rows → component4_spine_switch_spec
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_tor_leaf_switch_spec: UNIQUE constraint failed: component4_tor_leaf_switch_spec.sr_no — skipping row
+  ✓ Inserted    0 rows → component4_tor_leaf_switch_spec
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: NOT NULL constraint failed: component4_core_switch_spec.minimum_requirement — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_core_switch_spec: UNIQUE constraint failed: component4_core_switch_spec.sr_no — skipping row
+  ✓ Inserted    0 rows → component4_core_switch_spec
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+    ⚠ IntegrityError on component4_dc_lan_switch_spec: UNIQUE constraint failed: component4_dc_lan_switch_spec.sr_no — skipping row
+  ✓ Inserted    0 rows → component4_dc_lan_switch_spec
+
+  Summary: 5 tables | 5 sections | 0 rows
+
+============================================================
+Processing: initial md file.md (1).txt
+============================================================
+  JSON blocks found: 1
+  Manifest: ✗ (missing — will infer from ExtractionResults)
+  Extraction blocks: 0
+  File type: initial (full document / multi-component)
+  ℹ No SchemaManifest — inferring schemas from ExtractionResult fields
+
+  Summary: 0 tables | 0 sections | 0 rows
+
+============================================================
+DONE
+  Files processed : 2
+  Tables created  : 5
+  Sections loaded : 5
+  Rows inserted   : 0
+  Database        : /content/knowledge.db
+
+Per-file breakdown:
+  component md file .md (1).txt            [component] Component 4: City Communication and Network Infrastructure   5 sections      0 rows
+  initial md file.md (1).txt               [initial]                                       0 sections      0 rows
+
+────────────────────────────────────────────────────────────
+Tables in database:
+  component4_8port_industrial_switch_spec                          12 rows
+  component4_core_switch_spec                                      35 rows
+  component4_dc_lan_switch_spec                                    13 rows
+  component4_spine_switch_spec                                     36 rows
+  component4_tor_leaf_switch_spec                                  36 rows
+
+System tables:
+  _document_index                                                   4 rows
+  _extraction_registry                                             10 rows
+
+Document index (_document_index):
+  [component ] component md file .md (1).txt       Component 4: City Communication and Network Infrastructure 5 tables  0 rows
+  [component ] component md file .md.txt           Component 4: City Communication and Network Infrastructure 5 tables  132 rows
+  [initial   ] initial md file.md (1).txt                                                   0 tables  0 rows
+  [initial   ] initial md file.md.txt                                                       0 tables  0 rows
+============================================================
+
+Download your database:
