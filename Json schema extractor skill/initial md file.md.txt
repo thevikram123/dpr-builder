@@ -1,0 +1,102 @@
+This skill requires a two-phase approach. Below is the Phase 1: Document Exploration.
+
+## Phase 1 — Document Exploration
+
+**Document:** Noida Safe City Project – Volume 2 – Scope of Work
+**Detected structure:** This is a comprehensive Technical Scope of Work RFP for the Noida Safe City Project. It is hierarchically organized into 6 core technical components (Command & Control Centre, CCTV Surveillance, Data Centre, Network, Digital Twin, and Cyber Forensics) followed by detailed functional requirements and annexures for location-specific deployments.
+
+### Hierarchy
+- 1. Introduction to the City
+- 2. Understanding of the Project
+- 3. Detailed Scope and Functional Requirement
+- 4. Component 1: Integrated Command and Control Centre (CCC)
+    - 4.4.3 Technical Specification (Interiors/Console)
+    - 4.4.4 Detailed Bill of Quantity (BOQ)
+    - 4.6 IT Equipment in CCC
+    - 4.7 Software Specifications (VMS, Analytics, etc.)
+- 5. Component 2: CCTV Based General Surveillance System
+    - 5.8 CCTV Surveillance Cameras (Specifications)
+    - 5.9 Technical Functions (Spec Compliance Tables)
+    - 5.10 Peripherals for Police Thanas
+- 6. Component 3: Data Centre (DC)
+    - 6.6 Data Centre Specification
+    - 6.7 IT Infrastructure (Servers, Storage, Backup)
+    - 6.8 Enterprise Management System (EMS)
+- 7. Component 4: City Communication and Network Infrastructure
+    - 7.5 Technical Specifications (Switches)
+- 8. Component 5: City Model and Digital Twin
+- 9. Component 6: Cyber and Digital Forensics
+- 14. Annexures (Location Lists)
+
+### Extractable Sections
+- `Component 1 > 4.4.4 Detailed Bill of Quantity of Command-and-Control Centre` | boq_table | 35 items
+- `Component 1 > 4.6 IT Equipment > Workstation with Joystick Controller` | spec_compliance_table | 11 rows
+- `Component 1 > 4.6 IT Equipment > Video Walls and Controllers` | spec_compliance_table | 35 rows
+- `Component 1 > 4.7.1 Video Management Software` | spec_compliance_table | 103 rows
+- `Component 2 > 5.9 Technical Functions > 4MP (Outdoor Box / Bullet) Camera` | spec_compliance_table | 29 rows
+- `Component 2 > 5.9 Technical Functions > 2MP PTZ Camera` | spec_compliance_table | 35 rows
+- `Component 2 > 5.9 Technical Functions > 8MP ANPR Camera` | spec_compliance_table | 28 rows
+- `Component 3 > 6.7 IT Infrastructure > Servers for Application Hosting` | spec_compliance_table | 24 rows
+- `Component 3 > 6.7 IT Infrastructure > Primary Storage` | spec_compliance_table | 41 rows
+- `Component 6 > 9.3.5 Technical Specifications` | mixed_table | various
+
+### Sections to Skip
+- Chapters 1 & 2 (Introduction/Vision) | Pure prose
+- Disclaimer | Legal text
+- Table of Contents | Navigation
+- Appendices (Annexures 1-3) | Location mappings (these are list-style tables, extractable if required, but primarily location indexes)
+
+### Cross-cutting Patterns
+- Consistent "Sr. No. | Item | Minimum Requirement Description | Compliance | Deviations" table schema across most Technical Specification sections.
+- High volume of IT equipment specification tables.
+
+```json
+{
+  "document_name": "Noida Safe City Project – Volume 2 – Scope of Work",
+  "total_sections_found": 14,
+  "extractable_count": 42,
+  "skip_count": 5,
+  "components": [
+    {
+      "component_id": "Component 1",
+      "component_name": "Integrated Command and Control Centre (CCC)",
+      "sections": [
+        {
+          "section_path": "Component 1 > 4.4.4 Detailed Bill of Quantity of Command-and-Control Centre",
+          "heading_depth": 3,
+          "content_type": "boq_table",
+          "table_count": 1,
+          "estimated_rows": 35,
+          "extraction_priority": "high"
+        }
+      ]
+    },
+    {
+      "component_id": "Component 2",
+      "component_name": "CCTV Based General Surveillance System",
+      "sections": [
+        {
+          "section_path": "Component 2 > 5.9 Technical Functions > 4MP (Outdoor Box / Bullet) Camera",
+          "heading_depth": 3,
+          "content_type": "spec_compliance_table",
+          "table_count": 1,
+          "estimated_rows": 29,
+          "extraction_priority": "high"
+        }
+      ]
+    }
+  ],
+  "cross_cutting_patterns": [
+    "Repetitive Technical Specification table structure found in components 1, 2, 3, and 7.",
+    "BOQ tables typically follow Sr.No | Description | Unit | Quantity"
+  ]
+}
+```
+
+---
+
+## Phase 1 Complete
+
+Found **42** extractable sections across **6** components.
+
+**Extract all, or specific components only?**

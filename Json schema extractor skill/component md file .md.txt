@@ -1,0 +1,419 @@
+### Extracting: Component 4 > 7.5 Technical Specifications > 8 Port Industrial Grade Switch
+
+```json
+{
+  "section_path": "Component 4 > 7.5 Technical Specifications > 8 Port Industrial Grade Switch",
+  "heading_depth": 3,
+  "parent_component": "Component 4: City Communication and Network Infrastructure",
+  "content_type": "spec_compliance_table",
+  "should_extract": true,
+  "skip_reason": null,
+  "table_name": "component4_8port_industrial_switch_spec",
+  "physical_table_name": "component4_8port_industrial_switch_spec",
+  "schema_version": 1,
+  "rationale": "Compliance specifications for 8-port industrial grade switches used in city network infrastructure.",
+  "fields": [
+    {"name": "sr_no", "type": "str", "sql_type": "TEXT", "description": "Serial number code", "nullable": false, "is_primary_key": true, "unit": null, "source_label": "Sr. No."},
+    {"name": "item", "type": "str", "sql_type": "TEXT", "description": "Technical item name", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Item"},
+    {"name": "minimum_requirement", "type": "str", "sql_type": "TEXT", "description": "Minimum requirements", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Minimum Requirement Description"},
+    {"name": "compliance", "type": "bool", "sql_type": "INTEGER", "description": "Compliance status", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Compliance (Yes/No)"},
+    {"name": "deviations", "type": "str", "sql_type": "TEXT", "description": "Deviations or remarks", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Deviations / Remarks"}
+  ],
+  "row_count": 14,
+  "source_row_count": 14,
+  "rows": [
+    {"sr_no": "PNS.001", "item": "Ports", "minimum_requirement": "8 * 10/100/1000M Auto negotiation, Auto MDI / MDIX ESD and EFT protection, Cat5/Cat5e/Cat6, <=100m 2 * 1.25G/155M SFP slot type TX Power & RX Sensitivity based on SFP Modules 1 Port Should be BT and Support power upto 90W", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "PNS.002", "item": "Switch type", "minimum_requirement": "Layer 2 or 3 as per need", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "Layer 2 or 3"},
+    {"sr_no": "PNS.003", "item": "Port Features", "minimum_requirement": "IEEE 802.3x Flow control, Interface counters, Broadcast Storm Control, Isolated Ports, Flow Mirroring", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "PNS.004", "item": "Switch Capacity", "minimum_requirement": "Switch should have Min. 15 Gbps Switching Capacity", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "15 Gbps"},
+    {"sr_no": "PNS.005", "item": "Standard Support", "minimum_requirement": "IEEE 802.3x, IEEE 802.3, IEEE 802.3u, IEEE 802.3ab, IEEE 802.3z, IEEE 802.3ad, IEEE 802.3q, IEEE 802.3q/p, IEEE 802.1w, IEEE 802.1d, IEEE 802.1S, IEEE 802.3z 1000BASE-X STP, RSTP/MSTP, EPPS ring network, EAPS ring network, 02.3AF/AT/HiPoE/BT, AUTO 24V/48V PSE, ERPS", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "PNS.006", "item": "Protocol", "minimum_requirement": "TCP, UDP, ARP, ICMP, ICMP Router Discovery", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "PNS.006", "item": "MAC Address", "minimum_requirement": "Supports 16K or higher", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "16K"},
+    {"sr_no": "PNS.007", "item": "Software Features", "minimum_requirement": "Link Aggregation (Static/Dynamic, LACP), Static/Dynamic/Security MAC Address Table, VLAN, Port Based, Flow Based Mirroring, STP, RSTP, MSTP, GVRP, VLAN Based QinQ, 1:1 VLAN Mapping, Loop Protection, ERPS (G.8032), Port Isolation, IGMP Snooping, MLD Snooping", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "PNS.008", "item": "Management", "minimum_requirement": "Support NTP Client, DHCPv4 Client, DHCPv6 Client, DHCP snooping table, Telnet Server, TFTP Client, SSH Server", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "PNS.009", "item": "Application", "minimum_requirement": "IP Binding per Port, Port trunking, IEEE 802.1p QoS / CoS / ToS / DSCP, Port Mirroring, Auto sensing, Dynamic ARP Inspection, ARP Snooping / Spoofing prevention, Loopback detection", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "PNS.009", "item": "Additional Features", "minimum_requirement": "IP Binding per Port, Port trunking, IEEE 802.1p QoS / CoS / ToS / DSCP, Port Mirroring, Auto sensing, Dynamic ARP Inspection, ARP Snooping / Spoofing prevention, Loopback detection, STP Loopback detection, Priority Mapping, DiffServ Marking, BootDoS attack prevention, DHCP Server Screening, Head of Line (HoL), BootP, Digital Diagnostic Monitoring Interface (DDMI), IEEE 802.1x Port Access Authentication, User authentication for Web GUI, Ingress policing, Auto QoS", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "PNS.010", "item": "PoE Function", "minimum_requirement": "IEE802.3af/at", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "PNS.011", "item": "Operating Conditions", "minimum_requirement": "-40 to +80°C ; 10% to 90% RH No coagulation", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "PNS.012", "item": "Safety", "minimum_requirement": "EN 62368 / EN 60950 or equivalent", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null}
+  ]
+}
+```
+
+### Extracting: Component 4 > 7.5 Technical Specifications > Spine Switch
+
+```json
+{
+  "section_path": "Component 4 > 7.5 Technical Specifications > Spine Switch",
+  "heading_depth": 3,
+  "parent_component": "Component 4: City Communication and Network Infrastructure",
+  "content_type": "spec_compliance_table",
+  "should_extract": true,
+  "skip_reason": null,
+  "table_name": "component4_spine_switch_spec",
+  "physical_table_name": "component4_spine_switch_spec",
+  "schema_version": 1,
+  "rationale": "Technical specifications for spine switches used in the city network backbone.",
+  "fields": [
+    {"name": "sr_no", "type": "str", "sql_type": "TEXT", "description": "Serial number code", "nullable": false, "is_primary_key": true, "unit": null, "source_label": "Sr. No."},
+    {"name": "item", "type": "str", "sql_type": "TEXT", "description": "Technical item name", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Item"},
+    {"name": "minimum_requirement", "type": "str", "sql_type": "TEXT", "description": "Minimum requirements", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Minimum Requirement Description"},
+    {"name": "compliance", "type": "bool", "sql_type": "INTEGER", "description": "Compliance status", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Compliance (Yes/No)"},
+    {"name": "deviations", "type": "str", "sql_type": "TEXT", "description": "Deviations or remarks", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Deviations / Remarks"}
+  ],
+  "row_count": 36,
+  "source_row_count": 36,
+  "rows": [
+    {"sr_no": "SPN.001", "item": "Solution Requirement", "minimum_requirement": "The Switch should support non-blocking Layer 2 switching and Layer 3 routing", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "L2/L3"},
+    {"sr_no": "SPN.002", "item": "Redundancy", "minimum_requirement": "There switch should not have any single point of failure like power supplies and fans etc. should have 1:1/N+1 inbuilt level of redundancy", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "SPN.003", "item": "Hardware and Interface Requirement", "minimum_requirement": "Switch should have 48 x 1G/10G/25G Base-X Fiber and 8x 40G/50G/100GBASE-X Fiber QSFP28 Ports loaded with required optics", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "SPN.004", "item": "Storage", "minimum_requirement": "Switch should have 8GB RAM and 128GB internal Flash/Storage", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "SPN.005", "item": "Configuration", "minimum_requirement": "Switch should support Configuration roll-back", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "SPN.006", "item": "Interface Types", "minimum_requirement": "Switch should support for different logical interface types like loopback, VLAN, SVI/RVI, Port Channel, multi chassis port channel/LAG etc.", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.007", "item": "Routes", "minimum_requirement": "The switch should support 32K IPv4 unicast routes and 24K IPv6 unicast routes entries in the routing table including 64,000 multicast routes", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "SPN.008", "item": "Load Sharing", "minimum_requirement": "The switch should support hardware-based load sharing at wire speed using LACP and multi chassis ether channel/LAG", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "SPN.009", "item": "Switch Capacity", "minimum_requirement": "Switch should support minimum 4 Tbps of switching capacity", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "4 Tbps"},
+    {"sr_no": "SPN.010", "item": "Layer2 Features", "minimum_requirement": "Spanning Tree Protocol (IEEE 8201.D, 802.1W, 802.1S)", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.011", "item": "MAC Addresses", "minimum_requirement": "Switch should support minimum 32K no. of MAC addresses", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "32K"},
+    {"sr_no": "SPN.012", "item": "Link Aggregation", "minimum_requirement": "Switch should support 8 Nos. of link or more per Port channel (using LACP) and support 64 number of ports per Link Aggregation Group", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "SPN.013", "item": "Storm Control", "minimum_requirement": "Support for broadcast, multicast and unknown unicast storm control to prevent degradation of switch performance from storm due to network attacks and vulnerabilities", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "SPN.014", "item": "Multihoming", "minimum_requirement": "The Switch should Multihoming ESI-LAG", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "SPN.015", "item": "Virtualization Features", "minimum_requirement": "Switch should support Network Virtualisation using Virtual Over Lay Network using VXLAN/ NVGRE or alternative- Optional", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.016", "item": "Architecture", "minimum_requirement": "Switch should support VXLAN LAN & EVPN for supporting Spine - Leaf architecture to optimise the east- west traffic flow inside the data center or alternative- Optional", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "SPN.017", "item": "Layer3 Features", "minimum_requirement": "Switch should support static and dynamic routing like Static, OSPF and BGP", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.018", "item": "BGP", "minimum_requirement": "Should support BGP for IPv4 and IPv6", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.019", "item": "Multicast", "minimum_requirement": "Switch should support multicast traffic reachability using PIM-SM and SSM", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.020", "item": "VPN/Tunneling", "minimum_requirement": "Switch should support RSVP, LDP, 6PE and L3 VPN", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.021", "item": "Availability", "minimum_requirement": "Switch should provide gateway level of redundancy in IPv4 and IPv6 using HSRP/ VRRP", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "HSRP/VRRP"},
+    {"sr_no": "SPN.022", "item": "Failure Detection", "minimum_requirement": "Switch should support for BFD For Fast Failure Detection", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "BFD"},
+    {"sr_no": "SPN.023", "item": "Quality of Service", "minimum_requirement": "Switch system should support 802.1P classification and marking of packet CoS, DSCP etc.", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.024", "item": "QoS Features", "minimum_requirement": "Switch should support for different type of QoS features for real time traffic differential treatment using WRED and SP Queuing", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.025", "item": "Flow Control", "minimum_requirement": "Switch should support Flow control of Ethernet ports to control traffic rates during congestion by allowing congested nodes to pause link operation at the other end for receiving traffic as per IEEE 802.3x", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "IEEE 802.3x"},
+    {"sr_no": "SPN.026", "item": "Security", "minimum_requirement": "Switch should support for deploying different security for each logical and physical interface using Port Based access control lists of Layer-2 to Layer-4 in IP V4 and IP V6 and logging for fault finding and audit trail", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "SPN.027", "item": "Control Plane", "minimum_requirement": "Switch should support control plane i.e. processor and memory Protection from unnecessary or DoS traffic by control plane protection policy", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "SPN.028", "item": "AAA", "minimum_requirement": "Switch should support for external database for AAA using TACACS+ / Radius", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.029", "item": "RBAC", "minimum_requirement": "Switch should support for Role Based access control (RBAC) for restricting host level network access as per policy defined", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "RBAC"},
+    {"sr_no": "SPN.030", "item": "Spanning Tree Security", "minimum_requirement": "Switch should support to prevent edge devices in the network from becoming Spanning Tree Protocol root nodes", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "SPN.031", "item": "Manageability", "minimum_requirement": "Switch should support for embedded RMON/RMON-II for central NMS management and monitoring", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.032", "item": "Remote Login", "minimum_requirement": "Switch should provide remote login for administration Telnet, SSHv2", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.033", "item": "NMS Management", "minimum_requirement": "Switch should support for management and monitoring status using different type of Industry standard NMS using SNMP V2 and V3", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.034", "item": "Admin Tools", "minimum_requirement": "Switch should support for basic administrative tools like Ping and traceroute", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "SPN.035", "item": "Time Sync", "minimum_requirement": "Switch should support central time server synchronization using Network Time Protocol NTP V4", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "NTP V4"},
+    {"sr_no": "SPN.036", "item": "Certification", "minimum_requirement": "The Switch should be TEC Certified / EAL / NDP", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null}
+  ]
+}
+```
+
+### Extracting: Component 4 > 7.5 Technical Specifications > TOR / Leaf Switch
+
+```json
+{
+  "section_path": "Component 4 > 7.5 Technical Specifications > TOR / Leaf Switch",
+  "heading_depth": 3,
+  "parent_component": "Component 4: City Communication and Network Infrastructure",
+  "content_type": "spec_compliance_table",
+  "should_extract": true,
+  "skip_reason": null,
+  "table_name": "component4_tor_leaf_switch_spec",
+  "physical_table_name": "component4_tor_leaf_switch_spec",
+  "schema_version": 1,
+  "rationale": "Technical specifications for Top-of-Rack/Leaf switches used in data centre or aggregation configurations.",
+  "fields": [
+    {"name": "sr_no", "type": "str", "sql_type": "TEXT", "description": "Serial number code", "nullable": false, "is_primary_key": true, "unit": null, "source_label": "Sr. No."},
+    {"name": "item", "type": "str", "sql_type": "TEXT", "description": "Technical item name", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Item"},
+    {"name": "minimum_requirement", "type": "str", "sql_type": "TEXT", "description": "Minimum requirements", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Minimum Requirement Description"},
+    {"name": "compliance", "type": "bool", "sql_type": "INTEGER", "description": "Compliance status", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Compliance (Yes/No)"},
+    {"name": "deviations", "type": "str", "sql_type": "TEXT", "description": "Deviations or remarks", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Deviations / Remarks"}
+  ],
+  "row_count": 36,
+  "source_row_count": 36,
+  "rows": [
+    {"sr_no": "TLF.001", "item": "Solution Requirement", "minimum_requirement": "The Switch should support non-blocking Layer 2 switching and Layer 3 routing", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "L2/L3"},
+    {"sr_no": "TLF.002", "item": "Redundancy", "minimum_requirement": "There switch should not have any single point of failure like power supplies and fans etc. should have 1:1/N+1 inbuilt level of redundancy", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "TLF.003", "item": "Hardware Requirement", "minimum_requirement": "Switch should have the 48 x 1/10G SFP fibre ports and should be scalable up to min 48 ports", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "48 ports"},
+    {"sr_no": "TLF.004", "item": "Storage/Memory", "minimum_requirement": "Switch should have 16GB DRAM and 16GB internal Flash/Storage", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "TLF.005", "item": "Configuration", "minimum_requirement": "Switch should support Configuration roll-back", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "TLF.006", "item": "Interface Types", "minimum_requirement": "Switch should support for different logical interface types like loopback, VLAN, SVI/RVI, Port Channel, multi chassis port channel/LAG etc.", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.007", "item": "Routes", "minimum_requirement": "The switch should support 10K IPv4 unicast routes and 4K IPv6 unicast routes entries in the routing table including 4K multicast routes", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "TLF.008", "item": "Load Sharing", "minimum_requirement": "The switch should support hardware-based load sharing at wire speed using LACP and multi chassis ether channel/LAG", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "TLF.009", "item": "Switch Capacity", "minimum_requirement": "Switch should support minimum 1.5 Tbps of switching capacity", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "1.5 Tbps"},
+    {"sr_no": "TLF.010", "item": "Layer 2 Features", "minimum_requirement": "Spanning Tree Protocol (IEEE 8201.D, 802.1W, 802.1S)", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.011", "item": "MAC Address", "minimum_requirement": "Switch should support minimum 256,000 no. of MAC addresses", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "256,000"},
+    {"sr_no": "TLF.012", "item": "Link Aggregation", "minimum_requirement": "Switch should support 8 Nos. of link or more per Port channel (using LACP) and support 64 number of ports per Link Aggregation Group. The Switch should support 64 way ECMP", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "TLF.013", "item": "Storm Control", "minimum_requirement": "Support for broadcast, multicast and unknown unicast storm control to prevent degradation of switch performance from storm due to network attacks and vulnerabilities", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "TLF.014", "item": "LAG", "minimum_requirement": "The Switch should have LAG", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "TLF.015", "item": "Virtualization", "minimum_requirement": "Switch should support Network Virtualisation using Virtual Over Lay Network using VLAN", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.016", "item": "Layer 3 Features", "minimum_requirement": "Switch should support static and dynamic routing like Static, OSPF and BGP", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.017", "item": "BGP", "minimum_requirement": "Should support BGP for IPv4 and IPv6", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.018", "item": "Multicast", "minimum_requirement": "Switch should support multicast traffic reachability using PIM-SM and SSM", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.019", "item": "VPN/Tunneling", "minimum_requirement": "Switch should support RSVP, LDP, 6PE and L3 VPN", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.020", "item": "Availability", "minimum_requirement": "Switch should provide gateway level of redundancy in IPv4 and IPv6 using HSRP/ VRRP", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "HSRP/VRRP"},
+    {"sr_no": "TLF.021", "item": "Failure Detection", "minimum_requirement": "Switch should support for BFD For Fast Failure Detection / Non Stop Forwarding", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "BFD"},
+    {"sr_no": "TLF.022", "item": "QoS", "minimum_requirement": "Switch system should support 802.1P classification and marking of packet CoS, DSCP etc.", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.023", "item": "QoS Features", "minimum_requirement": "Switch should support for different type of QoS features for real time traffic differential treatment using WRED and SP Queuing", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.024", "item": "Flow Control", "minimum_requirement": "Switch should support Flow control of Ethernet ports to control traffic rates during congestion by allowing congested nodes to pause link operation at the other end for receiving traffic as per IEEE 802.3x", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "IEEE 802.3x"},
+    {"sr_no": "TLF.025", "item": "Security", "minimum_requirement": "Switch should support for deploying different security for each logical and physical interface using Port Based access control lists of Layer-2 to Layer-4 in IP V4 and IP V6 and logging for fault finding and audit trail", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "TLF.026", "item": "Control Plane", "minimum_requirement": "Switch should support control plane i.e. processor and memory Protection from unnecessary or DoS traffic by control plane protection policy", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "TLF.027", "item": "AAA", "minimum_requirement": "Switch should support for external database for AAA using TACACS+ / Radius", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.028", "item": "RBAC", "minimum_requirement": "Switch should support for Role Based access control (RBAC) for restricting host level network access as per policy defined", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "RBAC"},
+    {"sr_no": "TLF.029", "item": "Spanning Tree Security", "minimum_requirement": "Switch should support to prevent edge devices in the network from becoming Spanning Tree Protocol root nodes", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "TLF.030", "item": "Manageability", "minimum_requirement": "Switch should support for embedded RMON/RMON-II for central NMS management and monitoring", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.031", "item": "Remote Login", "minimum_requirement": "Switch should provide remote login for administration Telnet, SSHv2", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.032", "item": "NMS Management", "minimum_requirement": "Switch should support for management and monitoring status using different type of Industry standard NMS using SNMP V2 and V3", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.033", "item": "Admin Tools", "minimum_requirement": "Switch should support for basic administrative tools like Ping and traceroute", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "TLF.034", "item": "Time Sync", "minimum_requirement": "Switch should support central time server synchronization using Network Time Protocol NTP V4", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "NTP V4"},
+    {"sr_no": "TLF.035", "item": "Automation", "minimum_requirement": "The switch should support Automation features.", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "TLF.036", "item": "Certification", "minimum_requirement": "The Switch should be TEC Certified / EAL / NDP", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null}
+  ]
+}
+```
+
+### Extracting: Component 4 > 7.5 Technical Specifications > Core Switch for Community Surveillance
+
+```json
+{
+  "section_path": "Component 4 > 7.5 Technical Specifications > Core Switch for Community Surveillance",
+  "heading_depth": 3,
+  "parent_component": "Component 4: City Communication and Network Infrastructure",
+  "content_type": "spec_compliance_table",
+  "should_extract": true,
+  "skip_reason": null,
+  "table_name": "component4_core_switch_spec",
+  "physical_table_name": "component4_core_switch_spec",
+  "schema_version": 1,
+  "rationale": "Core switch specifications for community surveillance networks.",
+  "fields": [
+    {"name": "sr_no", "type": "str", "sql_type": "TEXT", "description": "Serial number code", "nullable": false, "is_primary_key": true, "unit": null, "source_label": "Sr. No."},
+    {"name": "item", "type": "str", "sql_type": "TEXT", "description": "Technical item name", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Item"},
+    {"name": "minimum_requirement", "type": "str", "sql_type": "TEXT", "description": "Minimum requirements", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Minimum Requirement Description"},
+    {"name": "compliance", "type": "bool", "sql_type": "INTEGER", "description": "Compliance status", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Compliance (Yes/No)"},
+    {"name": "deviations", "type": "str", "sql_type": "TEXT", "description": "Deviations or remarks", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Deviations / Remarks"}
+  ],
+  "row_count": 47,
+  "source_row_count": 47,
+  "rows": [
+    {"sr_no": "DCS.001", "item": "Form factor", "minimum_requirement": "1U Rack", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "1U"},
+    {"sr_no": "DCS.002", "item": "Physical Interfaces", "minimum_requirement": "24 or 48 (as per density required) 1G/ 10G Ethernet ports (as per internal connection requirements) and extra numbers of Uplink ports (as per requirement) to manage Community Surveillance traffic.", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.003", "item": "Performance", "minimum_requirement": "Non-Stop Forwarding Failover", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "Non-Stop Forwarding Failover"},
+    {"sr_no": "DCS.004", "item": "Switching Fabric", "minimum_requirement": "960 Gbps Line-Rate (non blocking fabric)", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "960 Gbps"},
+    {"sr_no": "DCS.005", "item": "Throughput", "minimum_requirement": "714 Mbps or higher", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "714 Mbps"},
+    {"sr_no": "DCS.006", "item": "Forwarding mode", "minimum_requirement": "Store-and-forward", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "Store-and-forward"},
+    {"sr_no": "DCS.007", "item": "MAC Address", "minimum_requirement": "128K MAC addresses", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "128K"},
+    {"sr_no": "DCS.008", "item": "L2 Services", "minimum_requirement": "Protocol based VLAN, Double VLAN Tagging (QoQ), GARP with GVRP/GMRP, Multicast VLAN Registration Protocol (MVRP), LAG Hashing, LAG Member Port Flaps Tracking, UDLD support, Distributed Link Aggregation, Per VLAN STP (PVSTP) with FastUplink and FastBackbone, Per VLAN Rapid STP (PVRSTP), IGMP v2/v3 Snooping support, MLD v1/v2 Snooping support, Expedited Leave Function, Static L2 Multicast Filtering, MLDv1/2 Snooping Support, IGMPv2/3 Snooping Support", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.009", "item": "L3 Services", "minimum_requirement": "IGMP Proxy, Any Source Multicast (ASM), Source Specific Multicast (SSM), Multicast streams routing between subnets, VLANs, Multicast Static Routes (IPv4, IPv6), DVMRP, Neighbor discovery (IPv4, IPv6), PIM-DM & PIM-SM (IPv4, IPv6), PIM multi-hop RP support, IPMC replication (hardware support), DHCP options 66, 67, 150, and 55, 125, Static Routing (IPv4, IPv6), OSPF v2 and v3, OSPF Flood Blocking, Route Redistribution, VRRP Route/Interface Tracking, Loopback Interfaces, Tunnel interfaces, Configured v6-over-v4 tunnels, Automatic (6to4) tunnels", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.010", "item": "Security", "minimum_requirement": "Broadcast, Multicast and Unicast Network Storm Protection", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.011", "item": "CPU Protection", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.012", "item": "DoS attack protection", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.013", "item": "ICMP throttling", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.014", "item": "Management ACL", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.015", "item": "Radius accounting", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.016", "item": "802.1x Authentication", "minimum_requirement": "IEEE 802.1x Radius Port Access Authentication", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "IEEE 802.1x"},
+    {"sr_no": "DCS.017", "item": "MAC Authentication", "minimum_requirement": "802.1x MAC Address Authentication Bypass (MAB)", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "802.1x MAB"},
+    {"sr_no": "DCS.018", "item": "Port Security", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.019", "item": "Dynamic ARP Inspection", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.020", "item": "MAC Filtering", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.021", "item": "Port MAC Locking", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.022", "item": "Management Control", "minimum_requirement": "ISDP (Industry Standard Discovery Protocol)", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "ISDP"},
+    {"sr_no": "DCS.023", "item": "Out of band Management", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.024", "item": "LLDP", "minimum_requirement": "802.1ab LLDP and LLDP-MED", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "802.1ab"},
+    {"sr_no": "DCS.025", "item": "SNMP", "minimum_requirement": "SNMP v1, v2 and v3", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.026", "item": "RMON/sFlow", "minimum_requirement": "RMON 1, 2, 3, 9/ sFlow", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.027", "item": "CLI", "minimum_requirement": "Command Line Interface (CLI)", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "CLI"},
+    {"sr_no": "DCS.028", "item": "GUI", "minimum_requirement": "Web-based graphical user interface (GUI)", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "Web GUI"},
+    {"sr_no": "DCS.029", "item": "Access Control", "minimum_requirement": "Admin access control via Radius and TACACS+", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.030", "item": "Radius accounting", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.031", "item": "Malicious Code", "minimum_requirement": null, "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.032", "item": "SSL Access", "minimum_requirement": "SSL/HTTPS and TLS v1.0 for web-based access", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "DCS.033", "item": "File Transfer", "minimum_requirement": "File Transfer (uploads, downloads) through TFTP/HTTP", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.034", "item": "Secure Transfer", "minimum_requirement": "SCP/ SFTP/ HTTPS", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.035", "item": "Config Management", "minimum_requirement": "Non disruptive Config Management", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "DCS.036", "item": "RSPAN", "minimum_requirement": "Remote Port Mirroring (RSPAN)", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "DCS.037", "item": "OpenFlow", "minimum_requirement": "OpenFlow 1.3", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "1.3"},
+    {"sr_no": "DCS.038", "item": "Logging", "minimum_requirement": "Persistent log supported", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "DCS.039", "item": "Traffic ACL", "minimum_requirement": "Access Control Lists (ACLs) L2 / L3 / L4", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.040", "item": "ACL Features", "minimum_requirement": "Time-based ACLs", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "DCS.041", "item": "VLAN ACL", "minimum_requirement": "ACL over VLANs", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "DCS.042", "item": "IPv6", "minimum_requirement": "IPv6 RA Guard Stateless Mode", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "yes"},
+    {"sr_no": "DCS.043", "item": "Network Auth", "minimum_requirement": "Network Authentication Successive Tiering", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCS.044", "item": "Auth Bypass", "minimum_requirement": "802.1x MAC Address Authentication Bypass (MAB)", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "802.1x MAB"},
+    {"sr_no": "DCS.045", "item": "Environmental", "minimum_requirement": "Operating Temperature: 5 to 35°C, Operating Humidity: 90% maximum relative humidity, non-condensing.", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null},
+    {"sr_no": "DCS.046", "item": "Certification", "minimum_requirement": "The Switch should be TEC Certified / EAL / NDP", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCS.047", "item": "Warranty", "minimum_requirement": "5 Year Warranty and 24 * 7 support with lifetime firmware support", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null}
+  ]
+}
+```
+
+### Extracting: Component 4 > 7.5 Technical Specifications > Data Centre LAN Switch – For Command Centre / Viewing Centre / Community Surveillance
+
+```json
+{
+  "section_path": "Component 4 > 7.5 Technical Specifications > Data Centre LAN Switch – For Command Centre / Viewing Centre / Community Surveillance",
+  "heading_depth": 3,
+  "parent_component": "Component 4: City Communication and Network Infrastructure",
+  "content_type": "spec_compliance_table",
+  "should_extract": true,
+  "skip_reason": null,
+  "table_name": "component4_dc_lan_switch_spec",
+  "physical_table_name": "component4_dc_lan_switch_spec",
+  "schema_version": 1,
+  "rationale": "Specifications for Data Centre LAN switches used for Command Centre and surveillance operations.",
+  "fields": [
+    {"name": "sr_no", "type": "str", "sql_type": "TEXT", "description": "Serial number code", "nullable": false, "is_primary_key": true, "unit": null, "source_label": "Sr. No."},
+    {"name": "item", "type": "str", "sql_type": "TEXT", "description": "Technical item name", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Item"},
+    {"name": "minimum_requirement", "type": "str", "sql_type": "TEXT", "description": "Minimum requirements", "nullable": false, "is_primary_key": false, "unit": null, "source_label": "Minimum Requirement Description"},
+    {"name": "compliance", "type": "bool", "sql_type": "INTEGER", "description": "Compliance status", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Compliance (Yes/No)"},
+    {"name": "deviations", "type": "str", "sql_type": "TEXT", "description": "Deviations or remarks", "nullable": true, "is_primary_key": false, "unit": null, "source_label": "Deviations / Remarks"}
+  ],
+  "row_count": 13,
+  "source_row_count": 13,
+  "rows": [
+    {"sr_no": "DCL.001", "item": "Ports", "minimum_requirement": "24 or 48 (as per density required) 1G/10G Ethernet ports (as per internal connection requirements) and extra numbers of Uplink ports (as per requirement); All ports can auto-negotiate between all allowable speeds, half-duplex or full duplex and flow control for half-duplex ports.", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCL.002", "item": "Switch type", "minimum_requirement": "Layer 2 or 3 as per need", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "Layer 2 or 3"},
+    {"sr_no": "DCL.003", "item": "MAC", "minimum_requirement": "Support minimum 32K MAC address.", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "32K"},
+    {"sr_no": "DCL.004", "item": "Backplane", "minimum_requirement": "Capable of providing wire-speed switching", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCL.005", "item": "Throughput", "minimum_requirement": "500 Mbps or higher", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "500 Mbps"},
+    {"sr_no": "DCL.006", "item": "Port Features", "minimum_requirement": "Must support Port Mirroring, Port Trunking and 802.3ad LACP Link Aggregation port trunks or equivalent support", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCL.007", "item": "Flow Control", "minimum_requirement": "Support IEEE 802.3x flow control for full-duplex mode ports or equivalent support", "compliance": null, "deviations": null, "req_type": "atomic", "req_value": "IEEE 802.3x"},
+    {"sr_no": "DCL.008", "item": "Protocols", "minimum_requirement": "IPv4, IPv6, 802.1D, 802.1S, 802.1w, Rate limiting, 802.1X, 802.1Q, IGMP v1/v2/v3 snooping, 802.1p, DiffServ, DHCP support, Loop protection, Loop detection, root protection", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCL.009", "item": "Access Control", "minimum_requirement": "Support port security, 802.1x (Port based network access control), MAC filtering, TACACS+ and RADIUS authentication", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCL.010", "item": "VLAN", "minimum_requirement": "802.1Q Tagged VLAN, port based VLANs and Private VLAN; Support dynamic VLAN Registration; support VLAN trunking", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCL.011", "item": "Protocol and Traffic", "minimum_requirement": "NTP/SNTP support; Traffic segmentation; Traffic classification based on user-definable application types: TOS, DSCP, Port based, TCP/UDP port number", "compliance": null, "deviations": null, "req_type": "prose", "req_value": null},
+    {"sr_no": "DCL.012", "item": "Management", "minimum_requirement": "Console port for management; SNMP V1, V2 and V3; 4 groups of RMON; Telnet, SSH, Console access; TFTP software upgrade; CLI, GUI, or web interface", "compliance": null, "deviations": null, "req_type": "standards_list", "req_value": null},
+    {"sr_no": "DCL.013", "item": "Resiliency", "minimum_requirement": "Dual load sharing AC / DC power supplies (as per discussion with MSI); Redundant variable-speed fans", "compliance": null, "deviations": null, "req_type": "multi_condition", "req_value": null}
+  ]
+}
+```
+
+## Extraction Complete
+Extracted: 5 tables | Skipped: 0 sections | Total rows: 147
+
+```json
+{
+  "type": "SchemaManifest",
+  "document_name": "Noida Safe City Project – Volume 2 – Scope of Work",
+  "extraction_timestamp": "2025-05-15T12:00:00Z",
+  "total_tables": 5,
+  "tables": [
+    {
+      "table_name": "component4_8port_industrial_switch_spec",
+      "physical_table_name": "component4_8port_industrial_switch_spec",
+      "schema_version": 1,
+      "content_type": "spec_compliance_table",
+      "section_path": "Component 4 > 7.5 Technical Specifications > 8 Port Industrial Grade Switch",
+      "parent_component": "Component 4: City Communication and Network Infrastructure",
+      "row_count": 14,
+      "ddl_columns": [
+        {"name": "sr_no", "sql_type": "TEXT", "nullable": false, "is_primary_key": true},
+        {"name": "item", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "minimum_requirement", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "compliance", "sql_type": "INTEGER", "nullable": true, "is_primary_key": false},
+        {"name": "deviations", "sql_type": "TEXT", "nullable": true, "is_primary_key": false},
+        {"name": "req_type", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "req_value", "sql_type": "TEXT", "nullable": true, "is_primary_key": false}
+      ],
+      "lineage_columns": [
+        {"name": "_section_path", "sql_type": "TEXT"},
+        {"name": "_parent_component", "sql_type": "TEXT"},
+        {"name": "_source_row_count", "sql_type": "INTEGER"},
+        {"name": "_extracted_at", "sql_type": "TEXT"}
+      ]
+    },
+    {
+      "table_name": "component4_spine_switch_spec",
+      "physical_table_name": "component4_spine_switch_spec",
+      "schema_version": 1,
+      "content_type": "spec_compliance_table",
+      "section_path": "Component 4 > 7.5 Technical Specifications > Spine Switch",
+      "parent_component": "Component 4: City Communication and Network Infrastructure",
+      "row_count": 36,
+      "ddl_columns": [
+        {"name": "sr_no", "sql_type": "TEXT", "nullable": false, "is_primary_key": true},
+        {"name": "item", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "minimum_requirement", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "compliance", "sql_type": "INTEGER", "nullable": true, "is_primary_key": false},
+        {"name": "deviations", "sql_type": "TEXT", "nullable": true, "is_primary_key": false},
+        {"name": "req_type", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "req_value", "sql_type": "TEXT", "nullable": true, "is_primary_key": false}
+      ],
+      "lineage_columns": [
+        {"name": "_section_path", "sql_type": "TEXT"},
+        {"name": "_parent_component", "sql_type": "TEXT"},
+        {"name": "_source_row_count", "sql_type": "INTEGER"},
+        {"name": "_extracted_at", "sql_type": "TEXT"}
+      ]
+    },
+    {
+      "table_name": "component4_tor_leaf_switch_spec",
+      "physical_table_name": "component4_tor_leaf_switch_spec",
+      "schema_version": 1,
+      "content_type": "spec_compliance_table",
+      "section_path": "Component 4 > 7.5 Technical Specifications > TOR / Leaf Switch",
+      "parent_component": "Component 4: City Communication and Network Infrastructure",
+      "row_count": 36,
+      "ddl_columns": [
+        {"name": "sr_no", "sql_type": "TEXT", "nullable": false, "is_primary_key": true},
+        {"name": "item", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "minimum_requirement", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "compliance", "sql_type": "INTEGER", "nullable": true, "is_primary_key": false},
+        {"name": "deviations", "sql_type": "TEXT", "nullable": true, "is_primary_key": false},
+        {"name": "req_type", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "req_value", "sql_type": "TEXT", "nullable": true, "is_primary_key": false}
+      ],
+      "lineage_columns": [
+        {"name": "_section_path", "sql_type": "TEXT"},
+        {"name": "_parent_component", "sql_type": "TEXT"},
+        {"name": "_source_row_count", "sql_type": "INTEGER"},
+        {"name": "_extracted_at", "sql_type": "TEXT"}
+      ]
+    },
+    {
+      "table_name": "component4_core_switch_spec",
+      "physical_table_name": "component4_core_switch_spec",
+      "schema_version": 1,
+      "content_type": "spec_compliance_table",
+      "section_path": "Component 4 > 7.5 Technical Specifications > Core Switch for Community Surveillance",
+      "parent_component": "Component 4: City Communication and Network Infrastructure",
+      "row_count": 47,
+      "ddl_columns": [
+        {"name": "sr_no", "sql_type": "TEXT", "nullable": false, "is_primary_key": true},
+        {"name": "item", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "minimum_requirement", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "compliance", "sql_type": "INTEGER", "nullable": true, "is_primary_key": false},
+        {"name": "deviations", "sql_type": "TEXT", "nullable": true, "is_primary_key": false},
+        {"name": "req_type", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "req_value", "sql_type": "TEXT", "nullable": true, "is_primary_key": false}
+      ],
+      "lineage_columns": [
+        {"name": "_section_path", "sql_type": "TEXT"},
+        {"name": "_parent_component", "sql_type": "TEXT"},
+        {"name": "_source_row_count", "sql_type": "INTEGER"},
+        {"name": "_extracted_at", "sql_type": "TEXT"}
+      ]
+    },
+    {
+      "table_name": "component4_dc_lan_switch_spec",
+      "physical_table_name": "component4_dc_lan_switch_spec",
+      "schema_version": 1,
+      "content_type": "spec_compliance_table",
+      "section_path": "Component 4 > 7.5 Technical Specifications > Data Centre LAN Switch – For Command Centre / Viewing Centre / Community Surveillance",
+      "parent_component": "Component 4: City Communication and Network Infrastructure",
+      "row_count": 13,
+      "ddl_columns": [
+        {"name": "sr_no", "sql_type": "TEXT", "nullable": false, "is_primary_key": true},
+        {"name": "item", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "minimum_requirement", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "compliance", "sql_type": "INTEGER", "nullable": true, "is_primary_key": false},
+        {"name": "deviations", "sql_type": "TEXT", "nullable": true, "is_primary_key": false},
+        {"name": "req_type", "sql_type": "TEXT", "nullable": false, "is_primary_key": false},
+        {"name": "req_value", "sql_type": "TEXT", "nullable": true, "is_primary_key": false}
+      ],
+      "lineage_columns": [
+        {"name": "_section_path", "sql_type": "TEXT"},
+        {"name": "_parent_component", "sql_type": "TEXT"},
+        {"name": "_source_row_count", "sql_type": "INTEGER"},
+        {"name": "_extracted_at", "sql_type": "TEXT"}
+      ]
+    }
+  ]
+}
+```
